@@ -17,7 +17,7 @@ assignees: ''
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+ Given [some context] a product exists in the catalog
+ When [certain action is taken] I submit valid updated product information
+ Then [the outcome of action is observed] the product details should be updated in the catalog
  ```
